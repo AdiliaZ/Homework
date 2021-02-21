@@ -58,7 +58,25 @@ namespace Webgentle.Bookstore
             {
                 endpoints.Map("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    if(env.IsDevelopment())
+                    {
+                        await context.Response.WriteAsync("Hello from dev");
+                    }
+                  else  if (env.IsProduction())
+                    {
+                        await context.Response.WriteAsync("Hello from prod");
+                    }
+                    else if (env.IsStaging())
+                    {
+                        await context.Response.WriteAsync("Hello from stag");
+                    }
+                    else if(env.IsEnvironment("Develop"))
+                    {
+                        await context.Response.WriteAsync("Hello from custom name");
+
+                    }
+                    else
+                    await context.Response.WriteAsync(env.EnvironmentName);
                 });
             });
 
