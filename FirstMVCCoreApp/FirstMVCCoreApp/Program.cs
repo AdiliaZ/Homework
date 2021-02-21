@@ -13,7 +13,9 @@ namespace FirstMVCCoreApp
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var builder = CreateHostBuilder(args);
+            var webHost = builder.Build();
+            webHost.Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

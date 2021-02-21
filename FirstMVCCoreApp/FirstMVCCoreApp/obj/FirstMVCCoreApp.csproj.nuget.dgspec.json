@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\учеба\\Информатика\\4 СЕМЕСТР СЕМЕСТРОВАЯ\\FirstMVCCoreApp\\FirstMVCCoreApp\\FirstMVCCoreApp.csproj": {}
+    "D:\\учеба\\Информатика\\Homework Rep\\FirstMVCCoreApp\\FirstMVCCoreApp\\FirstMVCCoreApp.csproj": {}
   },
   "projects": {
-    "D:\\учеба\\Информатика\\4 СЕМЕСТР СЕМЕСТРОВАЯ\\FirstMVCCoreApp\\FirstMVCCoreApp\\FirstMVCCoreApp.csproj": {
+    "D:\\учеба\\Информатика\\Homework Rep\\FirstMVCCoreApp\\FirstMVCCoreApp\\FirstMVCCoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\учеба\\Информатика\\4 СЕМЕСТР СЕМЕСТРОВАЯ\\FirstMVCCoreApp\\FirstMVCCoreApp\\FirstMVCCoreApp.csproj",
+        "projectUniqueName": "D:\\учеба\\Информатика\\Homework Rep\\FirstMVCCoreApp\\FirstMVCCoreApp\\FirstMVCCoreApp.csproj",
         "projectName": "FirstMVCCoreApp",
-        "projectPath": "D:\\учеба\\Информатика\\4 СЕМЕСТР СЕМЕСТРОВАЯ\\FirstMVCCoreApp\\FirstMVCCoreApp\\FirstMVCCoreApp.csproj",
+        "projectPath": "D:\\учеба\\Информатика\\Homework Rep\\FirstMVCCoreApp\\FirstMVCCoreApp\\FirstMVCCoreApp.csproj",
         "packagesPath": "C:\\Users\\ebobo\\.nuget\\packages\\",
-        "outputPath": "D:\\учеба\\Информатика\\4 СЕМЕСТР СЕМЕСТРОВАЯ\\FirstMVCCoreApp\\FirstMVCCoreApp\\obj\\",
+        "outputPath": "D:\\учеба\\Информатика\\Homework Rep\\FirstMVCCoreApp\\FirstMVCCoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
