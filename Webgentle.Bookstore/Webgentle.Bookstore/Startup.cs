@@ -26,15 +26,49 @@ namespace Webgentle.Bookstore
                 app.UseDeveloperExceptionPage();
             }
 
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("Hello from my first Middleware!");
+
+            //    await next();
+
+            //    await context.Response.WriteAsync("Hello from my first Middleware response!");
+
+            //});
+
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("Hello from my second Middleware!");
+
+            //    await next();
+
+            //    await context.Response.WriteAsync("Hello from my second Middleware response!");
+            //});
+
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("Hello from my third Middleware!");
+
+            //    await next();
+            //});
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
+                endpoints.Map("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
                 });
             });
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.Map("/Kitty", async context =>
+                {
+                    await context.Response.WriteAsync("Hello Kitty!");
+                });
+            });
         }
     }
-}
+    }
